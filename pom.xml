@@ -7,7 +7,7 @@
   <packaging>jar</packaging>
   <name>asperatus</name>
   <description>library for batching/aggregating stats to Cloudwatch</description>
-  <url>https://github.com/bizo/concurrent-test-utils</url>
+  <url>https://github.com/bizo/asperatus</url>
   <licenses>
     <license>
       <name>The Apache Software License, Version 2.0</name>
@@ -16,8 +16,8 @@
     </license>
   </licenses>
   <scm>
-    <url>https://github.com/bizo/concurrent-test-utils</url>
-    <connection>https://github.com/bizo/concurrent-test-utils</connection>
+    <url>https://github.com/bizo/asperatus</url>
+    <connection>https://github.com/bizo/asperatus.git</connection>
   </scm>
   <developers>
     <developer>
