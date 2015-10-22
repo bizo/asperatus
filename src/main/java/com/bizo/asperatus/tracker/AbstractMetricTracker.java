@@ -12,7 +12,7 @@ import com.google.common.collect.Lists;
  * 
  * Subclasses must only implement:
  * 
- *   void track(String metricName, Number value, Unit unit, Collection<CompoundDimension> dimensions);
+ *   void track(String metricName, Number value, Unit unit, Collection%lt;CompoundDimension%gt; dimensions);
  */
 public abstract class AbstractMetricTracker implements MetricTracker {
   @Override

@@ -45,6 +45,14 @@ public interface MetricTracker {
   
   /**
    * Track metrics with compound dimensions.
+   * @param metricName
+   *          metric name
+   * @param value
+   *          value
+   * @param unit
+   *          unit
+   * @param dimensions
+   *          dimensions to track against (ordering unimportant)
    */
   void track(String metricName, Number value, Unit unit, Collection<CompoundDimension> dimensions);
 

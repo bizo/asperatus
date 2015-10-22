@@ -16,7 +16,7 @@ public final class MachineInfo {
 
   private MachineInfo() { }
 
-  /** Map of Application -> $APPLICATION, etc. */
+  /** Map of Application to $APPLICATION, etc. */
   public static final Map<String, String> info = Collections.unmodifiableMap(getMachineInfo());
 
   /** List of all machine info: application, stage, instance id, region, and version. */
